@@ -1,26 +1,22 @@
 # homebrew-haru
 
-Homebrew cask tap for [haru](https://github.com/supaicy/haru) — TickTick 스타일 일정관리 macOS 앱.
+Homebrew tap for [haru](https://github.com/supaicy/haru) — a calm, all-in-one productivity app for macOS.
 
-## 설치
+## Install
 
 ```bash
-brew install --cask supaicy/haru/haru
+brew tap supaicy/haru
+brew install --cask haru
 ```
 
-## 업데이트
+## Update
 
 ```bash
 brew upgrade --cask haru
 ```
 
-## 제거
+## Uninstall
 
 ```bash
 brew uninstall --cask haru
 ```
-
-## 요구사항
-
-- macOS 11 (Big Sur) 이상
-- Apple Silicon (arm64)
