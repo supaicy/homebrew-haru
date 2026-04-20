@@ -4,7 +4,7 @@ cask "haru" do
 
   url "https://github.com/supaicy/haru/releases/download/v#{version}/haru.dmg"
   name "haru"
-  desc "TickTick 스타일 일정관리 macOS 앱"
+  desc "TickTick 스타일 일정관리 앱"
   homepage "https://github.com/supaicy/haru"
 
   depends_on arch: :arm64
